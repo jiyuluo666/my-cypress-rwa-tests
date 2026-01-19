@@ -1,0 +1,2 @@
+#记录项目依赖
+seleniumbase
