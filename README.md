@@ -1,6 +1,6 @@
-# SeleniumBase Saucedemo 测试项目
+# SeleniumBase  测试项目
 
-本项目使用 SeleniumBase 框架对 Saucedemo 网站进行自动化测试，覆盖从登录到购买的完整流程。
+本项目使用 SeleniumBase 框架对开源项目Cypress Real World App进行自动化测试，覆盖从登录到购买的完整流程。
 
 ## 技术栈
 - Python 3.9+
@@ -14,7 +14,7 @@
 - `.gitignore`：Git 忽略配置
 
 ## 测试流程
-1. 访问 Saucedemo 登录页面
+1. 访问 Cypress Real World App登录页面
 2. 输入用户名和密码登录
 3. 添加商品到购物车
 4. 进入购物车页面验证
