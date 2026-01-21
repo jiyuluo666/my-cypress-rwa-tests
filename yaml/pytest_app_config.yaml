@@ -1,0 +1,15 @@
+
+app:
+  dir: "E:/py_files/seleniumbase_mytest/Cypress Real World App/cypress-realworld-app"
+  command: ["yarn", "dev"]
+  health_check: "http://localhost:3001/health"
+  startup_timeout: 30
+  max_retries: 2
+
+pytest:
+  fail_strategy: "skip"  # skip, fail, xfail
+  require_app_marker: "requires_app"
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"

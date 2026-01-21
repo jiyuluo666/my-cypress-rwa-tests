@@ -1,2 +1,5 @@
-#记录项目依赖
+selenium
+pyyaml
+requests
+pytest
 seleniumbase

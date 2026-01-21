@@ -1,0 +1,2 @@
+class AppStartupError(Exception):
+    pass
